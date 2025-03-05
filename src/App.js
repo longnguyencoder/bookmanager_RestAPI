@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import StudentItem from './components/StudentItem';
 function App() {
   return (
     <div className="container mt-4">
@@ -20,16 +20,8 @@ function App() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope='row'>1</th>
-                <th >Nguyễn</th>
-                <th >A</th>
-              </tr>
-              <tr>
-                <th scope='row'>2</th>
-                <th>Nguyễn </th>
-                <th>B</th>
-              </tr>
+              <StudentItem />
+
             </tbody>
           </table>
         </div>
