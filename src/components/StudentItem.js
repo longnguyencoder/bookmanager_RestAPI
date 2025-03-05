@@ -1,18 +1,22 @@
 import React from 'react'
+// const StudentCode = "SV001";
+// const StudentFirtName = "Nguyễn";
+// const StudentLastName = "Diêng";
 
-const StudentItem = () => {
+const StudentItem = (props) => {
     return (
         <tr>
             <td>
-                SV001
+                {props.studentCode}
             </td>
             <td>
-                Nguyễn
+                {props.studentLastName}
             </td>
             <td>
-                Diêng
+                {props.studentFirtName}
             </td>
         </tr>
+
 
     )
 }

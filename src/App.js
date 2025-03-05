@@ -20,8 +20,20 @@ function App() {
               </tr>
             </thead>
             <tbody>
-              <StudentItem />
-
+              <StudentItem
+                studentCode="2"
+                studentLastName="Nguyễn"
+                studentFirtName="Long"
+              />
+              <StudentItem
+                studentCode="3"
+                studentLastName="Nguyễn"
+                studentFirtName="A"
+              /><StudentItem
+                studentCode="4"
+                studentLastName="Nguyễn"
+                studentFirtName="B"
+              />
             </tbody>
           </table>
         </div>
